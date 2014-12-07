@@ -1,5 +1,36 @@
 {
-  "name": "package",
+  "name": "<%= package.name %>",
   "version": "0.0.0",
-  "dependencies": {}
+  "description": "<%= package.description %>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watchify index.js -o bundle.js --debug --verbose & st --no-cache",
+    "build": "browserify index.js -o bundle.js --debug --verbose"
+  },
+  "repository": "<%= package.repository %>",
+  "author": {
+    "name": "<%= package.author.name %>",
+    "email": "<%= package.author.email %>",
+    "url": "<%= package.author.url %>"
+  },
+  "license": "<%= package.license %>",
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "browserify": "^7.0.0",
+    "watchify": "^2.1.1",
+    "st": "^0.5.2",
+    "insert-css": "^0.2.0",
+    "normalize-css": "^2.3.1"
+  },
+  "keywords": [
+    "webgl",
+    "gl"
+  ],
+  "private": <%= package.private %>
 }

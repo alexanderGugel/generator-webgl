@@ -23,6 +23,7 @@
     "gl-geometry": "^1.0.2",
     "gl-matrix": "^2.1.0",
     "gl-shader-core": "^2.2.0",
+    "st": "^0.5.2",
     "unindex-mesh": "^1.0.1",
     "watchify": "^2.1.1"
   },

@@ -19,10 +19,9 @@ Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](
 npm install -g yo
 ```
 
-After installing the dependencies, make sure to run `npm run dev` to start the development environment.
+After installing the dependencies, `npm run dev` is being run automagically.
 
-The command will start a static file server on port 1337. To view your compiled index.js, open
-http://localhost:1337/index.html.
+This command will start a static file server on port 1337. To view your compiled index.js, open http://localhost:1337/index.html.
 
 You should see something like this:
 

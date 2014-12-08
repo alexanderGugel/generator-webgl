@@ -24,7 +24,7 @@ module.exports = yeoman.generators.Base.extend({
     }, {
       type: 'confirm',
       name: 'openRepo',
-      message: 'Would you mind staring me on GitHub?',
+      message: 'Please star this repo!',
       default: true
     }];
 

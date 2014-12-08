@@ -1,6 +1,6 @@
 {
   "name": "generator-webgl",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Getting started with WebGL",
   "license": "MIT",
   "main": "app/index.js",

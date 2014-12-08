@@ -19,6 +19,15 @@ Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](
 npm install -g yo
 ```
 
+After installing the dependencies, make sure to run `npm run dev` to start the development environment.
+
+The command will start a static file server on port 1337. To view your compiled index.js, open
+http://localhost:1337/index.html.
+
+You should see something like this:
+
+![Screenshot](https://raw.githubusercontent.com/alexanderGugel/generator-webgl/368f1470cf7d00ce8f569f587b51d9bfcc28635a/assets/demo.png)
+
 ### Yeoman Generators
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
@@ -41,6 +50,9 @@ Yeoman has a heart of gold. He's a person with feelings and opinions, but he's v
 
 If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
 
+## Credits
+
+* inspired by https://github.com/stackgl/webgl-workshop
 
 ## License
 

@@ -1,6 +1,6 @@
 {
   "name": "generator-webgl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Getting started with WebGL",
   "license": "MIT",
   "main": "app/index.js",
@@ -23,8 +23,9 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.18.0",
     "chalk": "^0.5.0",
+    "open": "0.0.5",
+    "yeoman-generator": "^0.18.0",
     "yosay": "^0.3.0"
   },
   "devDependencies": {

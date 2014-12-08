@@ -3,6 +3,7 @@ var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 var yosay = require('yosay');
 var path = require('path');
+var open = require('open');
 
 module.exports = yeoman.generators.Base.extend({
   initializing: function () {
@@ -29,6 +30,10 @@ module.exports = yeoman.generators.Base.extend({
 
     this.prompt(prompts, function (props) {
       this.name = props.name;
+
+      if (props.openRepo) {
+        open('https://github.com/alexanderGugel/generator-webgl');
+      }
 
       done();
     }.bind(this));

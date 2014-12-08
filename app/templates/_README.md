@@ -1,6 +1,4 @@
-# <%= package.name %>
-
-> <%= package.description %>
+# <%= name %>
 
 It worked!
 

@@ -28,7 +28,14 @@
     "yosay": "^0.3.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "bunny": "^1.0.1",
+    "canvas-orbit-camera": "^1.0.1",
+    "face-normals": "0.0.0",
+    "gl-geometry": "^1.0.2",
+    "gl-matrix": "^2.1.0",
+    "gl-shader-core": "^2.2.0",
+    "mocha": "*",
+    "unindex-mesh": "^1.0.1"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
